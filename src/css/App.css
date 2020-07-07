@@ -1,0 +1,52 @@
+@import '~antd/dist/antd.css';
+
+.layout {
+  min-height: 100vh;
+}
+
+.header-classes {
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 50%;
+  list-style: none;
+  margin: 0;
+}
+
+.nav-link {
+  padding: 0rem 1rem;
+}
+
+.page-content {
+  padding: 1rem ;
+}
+
+input, .ant-picker {
+  border-radius: 0.5rem !important;
+  width: 100%;
+}
+
+.filters-container {
+  width: 100%;
+  padding: 0rem 0.5rem;
+}
+
+.carousel-image {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.card-classes {
+  border-radius: 1rem;
+  box-shadow: aliceblue;
+  min-height: 100%;
+}
